@@ -10,6 +10,10 @@ jQuery(document).ready(function() {
 	                   , "images/backgrounds/3.jpg"
 	                  ], {duration: 3000, fade: 750});
 
+	$('.second-banner-area').backstretch([
+										   "images/Image/1.jpg"
+										], {duration: 3000, fade: 750});
+
 
 
 

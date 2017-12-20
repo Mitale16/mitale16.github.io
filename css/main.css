@@ -231,6 +231,7 @@ ul li {
 	font-weight: 600;
 	font-size: 23px;
 	color: #fff;
+	opacity: 0.0;
 	letter-spacing:3px;
 	margin:0 3%;
 	line-height:70px;
