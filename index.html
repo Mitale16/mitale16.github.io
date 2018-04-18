@@ -1,129 +1,106 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="">
-<!--<![endif]-->
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Orly - Bootstrap Coming Soon template</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<title>Login V6</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
 </head>
-
 <body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100 p-t-85 p-b-20">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-70">
+						Welcome
+					</span>
+					<span class="login100-form-avatar">
+						<img src="images/avatar-01.jpg" alt="AVATAR">
+					</span>
 
-<!--header section -->
-<section class="banner" role="banner">
-  <div class="banner-area">
-    <!-- overlay -->
-    <div class="banner-area-gradient"></div>
-    <!-- overlay -->
-    <div class="inner-bg">
-      <div class="container">
-        <div class="col-md-10 col-md-offset-1">
-          <div class="banner-text text-center"> <a class="logo" href="#">Glenda</a>
-            <h1>Are You Ready</h1>
-            <!--Countdown -->
-            <div id="countdown"></div>
-            <!--Countdown -->
-            <a href="http://www.hedleyonline.com/tour/" class="btn">Get Ready</a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!--header section -->
-<!--intro section -->
-<section class="banner" role="banner">
-  <div class="second-banner-area">
-</section>
-<section id="intro" class="section intro">
-  <div class="container">
-    <!-- <div class="row"> -->
-      <!-- <div class="col-md-8 col-sm-6"> -->
-        <!-- <div class="intro-content"> -->
-          <!-- <img src="Hedley.jpg" alt="Hedley" align="middle"> -->
-          <!-- <h1>Insert Photo Here</h1> -->
-        </div>
+					<div class="wrap-input100 validate-input m-t-85 m-b-35" data-validate = "Enter username">
+						<input class="input100" type="text" name="username">
+						<span class="focus-input100" data-placeholder="Username"></span>
+					</div>
 
-        <!-- intro -->
-      </div>
-      <div class="middle">
-      <!-- <div class="col-md-7  col-md-offset-1 col-sm-6"> -->
-        <div class="intro-content">
-          <h2>Merry Christmas Mom!</h2>
-          <p>You and I are going to the Hedley Cageless Tour!</p>
-        </div>
+					<div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
+						<input class="input100" type="password" name="pass">
+						<span class="focus-input100" data-placeholder="Password"></span>
+					</div>
 
-        <!-- intro -->
-      </div>
-    </div>
-  </div>
-</section>
-<!--intro section -->
-<!--subscribe section -->
-<!-- <section id="subscribes" class="subscribe">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-5 subscribe-title">
-         <h2>Subscribe now</h2>
-      </div>
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
 
-       subscribe form
-      <div class="col-sm-12 col-md-7 subscribe-form">
+					<ul class="login-more p-t-190">
+						<li class="m-b-8">
+							<span class="txt1">
+								Forgot
+							</span>
 
-        <form method="post" action="php/subscribe.php" name="subscribeform" id="subscribeform">
-          <input type="text" name="email" placeholder="Enter your email address to get notified" id="subemail" />
-          <input type="submit" name="send" value="Notify me" id="subsubmit" class="btn2" />
-        </form> -->
+							<a href="#" class="txt2">
+								Username / Password?
+							</a>
+						</li>
 
-         <!-- subscribe message
-        <div id="mesaj"></div>
-        <!-- subscribe message
-      </div>
-      <!-- subscribe form
-    </div>
-  </div>
-</section> -->
-<!--subscribe section -->
+						<li>
+							<span class="txt1">
+								Don’t have an account?
+							</span>
 
-<!-- Footer section -->
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="footer-col col-md-5">
-        <p>Copyright © 2018 Alex Mitchell</p>
-        <p> Made with <i class="fa fa-heart pulse"></i> by <a href="http://www.designstub.com/">Designstub</a></p>
-      </div>
-      <div class="footer-col col-md-7">
-        <ul class="footer-share">
-          <li><a href="https://www.facebook.com/Mitale16"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="https://twitter.com/16mitale"><i class="fa fa-twitter"></i></a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
+							<a href="#" class="txt2">
+								Sign up
+							</a>
+						</li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</div>
+	
 
-  <!-- footer top -->
+	<div id="dropDownSelect1"></div>
+	
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
 
-</footer>
-<!-- Footer section -->
-
-<!-- JS files-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/jquery.countdown.js"></script>
-<script type="text/javascript" src="js/jquery.subscribe.js"></script>
-<script src="js/main.js"></script>
 </body>
 </html>
